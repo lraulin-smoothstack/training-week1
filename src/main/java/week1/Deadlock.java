@@ -1,5 +1,7 @@
 package week1;
 
+// I cheated.
+
 // Java program to illustrate Deadlock 
 // in multithreading. 
 class Util {
@@ -76,7 +78,7 @@ class Thread2 extends Thread {
     }
 }
 
-public class GFG {
+public class Deadlock {
     public static void main(String[] args) {
         // creating one object
         Shared s1 = new Shared();

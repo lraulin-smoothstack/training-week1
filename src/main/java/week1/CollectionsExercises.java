@@ -6,14 +6,16 @@ import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Exercises {
+public class CollectionsExercises {
     public static void main(String[] args) throws IOException {
+        exercise1();
+        exercise2();
         exercise3();
     }
 
     private static void exercise1() {
         // Create a set called mySet
-        Set mySet = new HashSet();
+        Set<String> mySet = new HashSet<>();
         // Ensure that this set contains an interesting selection of fruit
         String fruit1 = "pear", fruit2 = "banana", fruit3 = "tangerine", fruit4 = "strawberry", fruit5 = "blackberry";
         mySet.add(fruit1);
@@ -167,7 +169,7 @@ class StudentCollection {
 
     public double getPopulationStandardDeviation() {
         double[] averages = getAverageScores();
-        return Util.calculateSD(averages);
+        return Utility.calculateSD(averages);
     }
 
     public void displayAlphabetically() {

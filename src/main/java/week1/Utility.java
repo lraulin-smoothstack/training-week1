@@ -29,7 +29,7 @@ package week1;
  *
  */
 
-public class Util {
+public class Utility {
 
     /**
      * Standard deviation is a statistical measure of spread or variability.The

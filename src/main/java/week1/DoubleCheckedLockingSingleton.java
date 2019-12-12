@@ -1,5 +1,7 @@
 package week1;
 
+// Did from memory! Barely peeked.
+
 public class DoubleCheckedLockingSingleton {
     private static DoubleCheckedLockingSingleton instance;
 
