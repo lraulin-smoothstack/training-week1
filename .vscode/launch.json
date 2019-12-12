@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lambdas",
+            "request": "launch",
+            "mainClass": "week1.Lambdas",
+            "projectName": "training-week-1"
+        }
+    ]
+}

@@ -149,7 +149,6 @@ class Player {
     int chips = 0;
 
     public Player(String newName) {
-        // TODO: validation
         name = newName;
     }
 }

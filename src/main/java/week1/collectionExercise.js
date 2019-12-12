@@ -48,7 +48,6 @@ const alphaSortComparator = (a, b) => {
 };
 
 const meritSortComparator = (a, b) => {
-  // Use toUpperCase() to ignore character casing
   const A = a.average;
   const B = b.average;
 
